@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./loanapplication.css">
+</head>
+
+
+<body id="body">
+    <fieldset>
+  <form action="#" onsubmit="return validation()">  
+    <legend style="color: black;"><h1>Loan Application</h1></legend>
+    <div id="parent">
+        <div id="one">
+        <div id="firstname">
+            
+           <label for="Firstname"><b>FirstName:</b></label>
+           <input type="text" placeholder="enter first name" autocomplete="off" id="user">
+           <span id="aname" style="color: red;"></span>
+        </div>
+        <div id="middlename">
+                <label for="middlename"><b> MiddleName:</b></label>
+                <input type="text" placeholder="enter middle name" autocomplete="off">
+        </div>
+        <div id="lastname">
+            <label for="lastname"><b>LastName:</b></label>
+            <input type="text" placeholder="enter last name" autocomplete="off">
+        </div>
+    </div>
+        <div id="two">
+
+        <div id="email">
+            <label for="Email-Id"><b>Email-Id:</b></label>
+            <input type="email" placeholder="enter email" autocomplete="off">
+         </div>
+         <div id="phoneno">
+                 <label for="Phone-No"><b> Phone-No:</b></label>
+                 <input type="text" placeholder="enter phone number" autocomplete="off">
+         </div>
+         <div id="dob">
+             <label for="dob"><b>DOB:</b></label>
+             <input type="dob" placeholder="enter date of birth" autocomplete="off">
+         </div>
+        </div>
+         <div id="three">
+            <div id="address">
+                <label for="Address"><b>Address:</b></label>
+                <input type="address" placeholder="enter your paramanent address" autocomplete="off">
+             </div>
+             <div id="landmark">
+                     <label for="landmark"><b>Landmark</b></label>
+                     <input type="text" placeholder="enter your landmark" autocomplete="off">
+             </div>
+             <div id="city">
+                 <label for="city"><b>City:</b></label>
+                 <input type="city" placeholder="enter your city" autocomplete="off">
+             </div>
+         </div>
+         <div id="four">
+            <div id="pincode">
+                <label for="pincode"><b>Pin Code:</b></label>
+                <input type="pincode" placeholder="enter your pincode" autocomplete="off">
+             </div>
+             <div id="status">
+                <label for="status"><b>Maretial Status:</b></label>
+                <select  name="maretial-status">
+                    <option disabled="disabled" selected="selected">--choose option</option>
+                    <option >Married</option>
+                    <option >Unmarried</option>
+                    </select>
+              </div>
+              <div id="gender">
+                <label for="gender"><b>Gender:</b></label>
+                <select  name="geneder">
+                    <option disabled="disabled" selected="selected">--choose option</option>
+                    <option >Male</option>
+                    <option >Female</option>
+                    <option >Others</option>
+                    </select>
+              </div>
+         </div>
+         <div id="five">
+            <div id="adhar">
+                <label for="adhar"><b>Adhar No:</b></label>
+                <input type="adhar" placeholder="Enter Your Adhar No"  id="user10">
+                <span id="kname" style="color: red;"></span>
+             </div>
+
+             <div id="pan">
+                <label for="pan"><b>Pan Number:</b></label>
+                <input type="pan" placeholder="Enter Your Pan No" id="user11">
+                <span id="lname" style="color: red;"></span>
+             </div>
+
+             <div id="amount">
+                <label for="amount"><b>Loan amount:</b></label>
+                <select  name="amount">
+                    <option disabled="disabled" selected="selected">--choose option</option>
+                    <option >1Lakh-2Lakh</option>
+                    <option >3Lakh-7Lakh</option>
+                    <option >7Lakh-15Lakh</option>
+                    <option >15Lakh-25Lakh</option>
+                    </select>
+              </div>
+</div>
+<center><button type="submit" id="valid" >Submit-</button></center>
+</fieldset>
+</form>
+<script  type="text/javascript">
+function validation(){
+    var aname=document.getElementById('user').value;
+    if(aname==""){
+       document.getElementById('aname').innerHTML="**Fields Requried**";
+       return false;
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+#body{
+    background-image: url(./HDFC-home-loan-application-statuS-FEATURE-compressed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+       
+       #btn1{
+        background-color: pink;
+        height: 35px;
+        width: 80px;
+        border-radius: 10px 10px 10px ;
+       }
+    #parent{
+        height: 500px;
+        width: 1450px;
+    
+        
+        
+    }
+    #one{
+        margin-top: 50px;
+        height: 80px;
+        width: 1450px;
+        display: inline-flex;
+
+    }
+    #firstname{
+        height: 50px;
+        width: 350px;
+    }
+    #middlename{
+        height: 50px;
+        width: 350px;
+    }
+    #lastname{
+        height: 50px;
+        width: 350px;
+    }
+    
+
+   #two{
+    height: 80px;
+    width: 1450px;
+    display: inline-flex;
+
+   }
+    #email{
+        height: 50px;
+        width: 350px;
+    }
+    #phoneno{
+        height: 50px;
+        width: 350px;
+    }
+    #dob{
+        height: 50px;
+        width: 350px;
+    }
+
+
+    #three{
+    height: 80px;
+    width: 1450px;
+    display: inline-flex;
+
+   }
+    #address{
+        height: 50px;
+        width: 350px;
+    }
+    #landmark{
+        height: 50px;
+        width: 350px;
+    }
+    #city{
+        height: 50px;
+        width: 350px;
+    }
+
+    #four{
+    height: 80px;
+    width: 1450px;
+    display: inline-flex;
+    }
+    #pincode{
+        height: 50px;
+        width: 350px;
+    }
+    #status{
+        height: 50px;
+        width: 350px;
+    }
+    #gender{
+        height: 50px;
+        width: 350px;
+    }
+
+    #five{
+    height: 80px;
+    width: 1450px;
+    display: inline-flex;
+    }
+    
+    #adhar{
+        height: 50px;
+        width: 350px;
+    }
+    #pan{
+        height: 50px;
+        width: 350px;
+    }
+    #gender{
+        height: 50px;
+        width: 350px;
+    }
+   
+    }
